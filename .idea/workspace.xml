@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940259ab-32f3-48ad-a45c-2d80fb474099" name="Changes" comment="i am doing the switch">
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+    <list default="true" id="940259ab-32f3-48ad-a45c-2d80fb474099" name="Changes" comment="to string method work in progress">
+      <change beforePath="$PROJECT_DIR$/src/Main/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674463852688</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="to string method work in progress">
+      <created>1674464362696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674464362696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,7 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i am doing the switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="i am doing the switch" />
+    <MESSAGE value="to string method work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="to string method work in progress" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

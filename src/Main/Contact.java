@@ -35,10 +35,17 @@ public class Contact {
     }
     @Override
     public String toString(){
+        if (address==null){
+            return name+"\n" +
+                    number+"\n" +
+                    surname + "\n" ;
+        }else {
+            if (surname==null){
+                return name+"\n" +
+                        number+"\n" ;
+            }
+        }
 
-        return name+"\n" +
-                number+"\n" +
-                surname + "\n" +
-               address+ "\n";
+               address+ "\n
     }
 }
