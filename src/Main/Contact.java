@@ -33,4 +33,12 @@ public class Contact {
     public String getAddress(){
         return address;
     }
+    @Override
+    public String toString(){
+
+        return name+"\n" +
+                number+"\n" +
+                surname + "\n" +
+               address+ "\n";
+    }
 }
