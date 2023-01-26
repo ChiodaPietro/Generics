@@ -42,11 +42,11 @@ public class Contact {
 
     @Override
     public String toString() {
-        if (surname.equals("")) {
+        if (surname.equals(" ")) {
             return "name: " + name + "\n" +
                     "number: " + number + "\n";
         } else {
-            if (address.equals("")) {
+            if (address.equals(" ")) {
                 return "name: " + name + "\n" +
                         "number: " + number + "\n" +
                         "surname: " + surname + "\n";
