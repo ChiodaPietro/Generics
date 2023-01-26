@@ -11,6 +11,10 @@ public class Main {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
+        Lambda test=(a, b) ->{
+            return a+b;
+        };
+        System.out.println(test.sum(10,30));
         InputStream stream;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
